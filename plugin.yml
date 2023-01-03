@@ -1,0 +1,12 @@
+name: BuyFlyTime
+main: Biswajit\Main
+api: 4.0.0
+author: Biswajit
+version: 1.0.0
+commands:
+ buyfly:
+  description: "Permission For Buy Fly"
+  permission: buyfly.server
+permissions:
+  buyfly.server:
+    default: true
